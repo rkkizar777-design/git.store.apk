@@ -1,160 +1,176 @@
 <div align="center">
 
-<br />
+<br/>
 
-<img width="120" src="public/logo.png" alt="GitSearch Mobile Logo" />
+<img src="https://img.shields.io/badge/%F0%9F%94%AD_GitSearch-Mobile-63b3ed?style=for-the-badge&labelColor=07090f&color=63b3ed&logo=github&logoColor=white" height="44" alt="GitSearch Mobile" />
 
-# 🔭 GitSearch Mobile
-### *The Ultimate GitHub App Store & Explorer for Android*
+<h1>GitSearch Mobile</h1>
 
-**Discover millions of open-source projects, trending repositories, and developer tools anytime, anywhere.**
-*100% Client-Side · Zero Login Required · Serverless · Native Android Share*
+<p><strong>The most beautiful, fast, and private way to explore GitHub on Android.</strong><br/>
+<em>Discover · Read · Bookmark · Share — No login. No server. No compromise.</em></p>
 
-<br />
+<br/>
 
 [![Download APK](https://img.shields.io/badge/⬇%20Download%20APK-v1.0.0.2-00C853?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
 
-<br />
+<br/>
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![React 18](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Capacitor 6](https://img.shields.io/badge/Capacitor_6-119EFF?style=flat-square&logo=capacitor&logoColor=white)
-![GitHub REST API](https://img.shields.io/badge/GitHub_REST_API_v3-181717?style=flat-square&logo=github&logoColor=white)
-![Privacy First](https://img.shields.io/badge/Privacy-100%25_Client_Side-00F0FF?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
+![GitHub API](https://img.shields.io/badge/GitHub_REST_API_v3-181717?style=flat-square&logo=github&logoColor=white)
+![Privacy](https://img.shields.io/badge/Privacy-100%25_Client--Side-00F0FF?style=flat-square)
+![MIT](https://img.shields.io/badge/License-MIT-b794f4?style=flat-square)
 
-<br />
+<br/>
 
-[**⚡ Download APK (v1.0.0.2)**](../../releases/latest) • [**✨ Features**](#-key-features) • [**🎨 6 Themes**](#-6-custom-color-themes) • [**🏆 Comparison**](#-why-gitsearch-mobile) • [**🛡️ Privacy**](#%EF%B8%8F-privacy--security) • [**📥 Installation**](#-quick-installation)
+[**⚡ Download**](../../releases/latest) · [**✨ Features**](#-features) · [**🎨 Themes**](#-6-color-themes) · [**🏆 Why Us**](#-why-gitsearch-mobile) · [**🛡️ Privacy**](#-privacy--security) · [**🔧 Build**](#-build-from-source)
 
 </div>
 
 ---
 
-## 🌟 What is GitSearch Mobile?
+<br/>
 
-> **GitSearch Mobile** turns your Android phone into an **interactive Open-Source Discovery Hub**. 
+## 📸 Screenshots
 
-Whether you're looking for cutting-edge AI models, trending Web frameworks, blazing-fast Rust tools, or mobile projects, GitSearch Mobile gives you a native app store experience right on your phone — **without needing a PC, complex setup, or even a GitHub account.**
+> **Dark glassmorphic UI · 6 themes · Discover hub · README viewer · Native share**
+
+<div align="center">
+
+| Discover | Search Results | README Viewer | Settings |
+|:---:|:---:|:---:|:---:|
+| 🔭 Category Cards | 📦 Repo Cards | 📖 Markdown Docs | 🎨 Theme Picker |
+
+</div>
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-### 🔭 Discover & Exploration Hub (Main Screen)
-- **Interactive Discover Landing View**: Opens straight into a curated discovery dashboard with popular open-source categories.
-- **1-Tap Quick Categories**: Instant exploration for **🔥 Trending**, **🤖 AI / ML**, **🌐 Web Dev**, **🦀 Rust**, **⚡ APIs**, **🐍 Python**, **📱 Mobile**, **🎮 Games**, **🔐 Security**, and **🐳 DevOps**.
-- **Clickable Hero Discovery**: Tap the main header card anytime to load top trending repositories worldwide.
-- **Recent Searches & 1-Tap Delete**: Smart search history with instant tap-to-search or 1-tap delete (`✕`).
+### 🔭 Discover Hub *(Main Screen)*
+Open the app and you're instantly greeted by a rich exploration landing — no blank search box.
 
-### 📖 Rich In-App Documentation
-- **Native Markdown README Viewer**: Read full project documentation in a sleek, glassmorphic bottom sheet without leaving the app.
-- **In-App Share Button**: Tap `🔗 Share` to instantly invoke the **Native Android System Share Sheet** (WhatsApp, Telegram, Twitter, Messages) or copy the URL with 1-tap fallback.
+- **Hero Card** — tap it to instantly load the world's top trending repos
+- **10 Quick Categories** — one tap to explore: 🔥 Trending, 🤖 AI/ML, 🌐 Web Dev, 🦀 Rust, ⚡ APIs, 🐍 Python, 📱 Mobile, 🎮 Games, 🔐 Security, 🐳 DevOps
+- **Recent Searches** — tap any past search to re-run it instantly, or swipe to clear
 
-### 🎨 6 Custom Color Themes
-Switch between 6 hand-crafted color palettes in Settings ⚙️ with a compact, ultra-sleek 3-column tile selector:
-1. 🌌 **Midnight Space** *(Default Ice Cyan & Deep Blue)*
-2. ⚡ **Cyberpunk Neon** *(Hot Pink, Electric Cyan & Yellow Glow)*
-3. 🌊 **Deep Ocean** *(Aqua Teal & Ocean Blue)*
-4. 🌹 **Midnight Rose** *(Ruby Rose & Crimson)*
-5. 🖤 **AMOLED Black** *(True Pure Black for OLED Display Battery Saving)*
-6. 🌲 **Emerald Forest** *(Mint Green & Forest)*
+---
 
-### 🔖 Offline Bookmarks & Profile
-- **Local Bookmarks**: Tap 🤍 on any repository to save it permanently on your device — zero account required!
-- **Badge Counter**: Live animated badge indicator on the bottom nav shows saved repo counts.
-- **Inline Profile Setup**: Enter your GitHub username directly inside the Profile tab to inspect public repos, followers, and bio!
+### 🔍 Search & Browse
+- **Smart search** with inline history suggestions and 1-tap delete
+- **Sort by** ⭐ Stars · 🍴 Forks · 🕐 Recently Updated
+- **Infinite scroll** — results load automatically as you scroll
+- **Language dots**, topic tags, license badges — all visible at a glance
+
+---
+
+### 📖 In-App README Viewer
+- Full **Markdown rendering** inside a smooth bottom sheet
+- Code blocks, tables, images, blockquotes — all beautifully styled
+- **Share** any repo directly from the README viewer
+
+---
+
+### 🔗 Native Android Share
+- Tap **🔗 Share** on any card → Android native share sheet opens
+- Share to WhatsApp, Telegram, Twitter, Gmail, copy link — whatever you have installed
+- Works as expected on every Android device
+
+---
+
+### 🔖 Offline Bookmarks
+- Tap 🤍 to save any repo **permanently** on your device
+- **No sign-in required** — all local, all private
+- Animated badge counter on the nav bar shows your saved count
+
+---
+
+### 👤 GitHub Profile
+- Enter your GitHub username once → see your avatar, bio, repo list, followers & following
+- Tap any of your repos to read its README in-app
+- 1-tap **Edit** to switch profiles anytime
+
+---
+
+## 🎨 6 Color Themes
+
+Switch in **Settings ⚙️** with a sleek compact tile picker:
+
+| | Theme | Vibe |
+|---|---|---|
+| 🌌 | **Midnight Space** *(default)* | Ice Cyan + Deep Space Blue |
+| ⚡ | **Cyberpunk Neon** | Hot Pink + Electric Cyan + Yellow |
+| 🌊 | **Deep Ocean** | Aqua Teal + Cool Blue |
+| 🌹 | **Midnight Rose** | Ruby Red + Crimson Glow |
+| 🖤 | **AMOLED Black** | Pure Black — save battery on OLED displays |
+| 🌲 | **Emerald Forest** | Mint Green + Forest Dark |
 
 ---
 
 ## 🏆 Why GitSearch Mobile?
 
-| Feature | Official GitHub App | Mobile Browser | **GitSearch Mobile** |
-| :--- | :---: | :---: | :---: |
-| **No Sign-In Required** | ❌ | ✅ | **✅ (100% Free Access)** |
-| **Discover Landing Hub** | ❌ | ❌ | **✅ (Categories & Trends)** |
-| **In-App README Viewer** | ❌ | ❌ | **✅ (Smooth Bottom Sheet)** |
-| **Native Android Share Sheet** | ❌ | ❌ | **✅ (1-Tap Share)** |
-| **6 Ultra-Sleek Color Themes** | ❌ | ❌ | **✅ (AMOLED, Cyberpunk, etc.)** |
-| **Instant Search Suggestions** | ❌ | ❌ | **✅ (With 1-Tap Delete)** |
-| **Offline Local Bookmarks** | ❌ | ❌ | **✅ (Zero Login Needed)** |
-| **100% Client-Side Privacy** | ❌ | ❌ | **✅ (Direct API Calls)** |
+| | Official GitHub App | Mobile Browser | **GitSearch Mobile** |
+|:---|:---:|:---:|:---:|
+| No sign-in needed | ❌ | ✅ | **✅** |
+| Discover landing hub | ❌ | ❌ | **✅** |
+| In-app README viewer | ❌ | ❌ | **✅** |
+| Native Android share | ❌ | ❌ | **✅** |
+| 6 custom dark themes | ❌ | ❌ | **✅** |
+| Search history suggestions | ❌ | ❌ | **✅** |
+| Offline local bookmarks | ❌ | ❌ | **✅** |
+| 100% client-side privacy | ❌ | ❌ | **✅** |
+| AMOLED battery saver theme | ❌ | ❌ | **✅** |
 
 ---
 
 ## 🛡️ Privacy & Security
 
-GitSearch Mobile is built with **100% Client-Side Architecture**:
-- 🔒 **Zero Analytics or Tracking**: We do not collect, monitor, or transmit your search history or personal data.
-- 💾 **Local Storage Only**: Your bookmarks, history, and theme settings live strictly on your device inside secure `LocalStorage`.
-- 🌐 **Direct Connection**: All searches talk directly to `https://api.github.com` via official HTTPS endpoints.
+GitSearch Mobile is **100% serverless and client-side**:
+
+- 🔒 **Zero tracking** — no analytics, no telemetry, no data collection whatsoever
+- 💾 **Local only** — bookmarks, search history, profile, and theme live strictly on your device
+- 🌐 **Direct API** — every request goes straight from your phone to `https://api.github.com` over HTTPS
+- 🚫 **No backend** — there is no relay server, no proxy, no middleman
 
 ---
 
-## 🛠️ Architecture
+## 📥 Install the APK
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                   📱 GitSearch Mobile APK                   │
-│                                                             │
-│   ┌─────────────┐   ┌─────────────┐   ┌─────────────────┐   │
-│   │ 🔭 Discover │   │ 🔖 Saved    │   │  👤 Profile     │   │
-│   └──────┬──────┘   └──────┬──────┘   └────────┬────────┘   │
-│          │                 │                   │            │
-│          ▼                 ▼                   ▼            │
-│   ┌─────────────────────────────────────────────────────┐   │
-│   │          Capacitor 6 Android Native WebView         │   │
-│   └────────────────────────┬────────────────────────────┘   │
-└────────────────────────────┼────────────────────────────────┘
-                             │ Direct HTTPS REST API v3
-                             ▼
-                ┌────────────────────────┐
-                │  api.github.com        │
-                │  GitHub REST API v3    │
-                └────────────────────────┘
-                             ▲
-                ┌────────────┴───────────┐
-                │ 💾 Phone LocalStorage  │
-                │ (Bookmarks, History,   │
-                │  Theme, Profile)       │
-                └────────────────────────┘
+1. Tap "Download APK" above
+2. Open the .apk file on your Android phone
+3. Tap Install (allow "Install from unknown sources" if prompted)
+4. Launch GitSearch — enjoy!
 ```
 
----
-
-## 📥 Quick Installation
-
-### Standard Android Direct Install
-1. Click [**Download APK (v1.0.0.2)**](../../releases/latest).
-2. Open the downloaded `.apk` file on your Android device.
-3. Tap **Install** *(if prompted, enable "Install from Unknown Sources" for your browser)*.
-4. Launch **GitSearch** and start exploring!
+> 💡 **First time?** Go to **Settings → Security → Install Unknown Apps** and allow your browser or file manager.
 
 ---
 
 ## 🔧 Build From Source
 
-> **Prerequisites**: Node.js 18+, JDK 17+, Android Studio & SDK.
+> **Prerequisites:** Node.js 18+, JDK 17+, Android Studio + Android SDK
 
 ```bash
-# 1. Clone the repository
+# Clone
 git clone https://github.com/YOUR_USERNAME/GitSearch-Mobile.git
 cd GitSearch-Mobile
 
-# 2. Install dependencies
+# Install dependencies
 npm install
 
-# 3. Development live server
+# Run in browser (dev preview)
 npm run dev
 
-# 4. Build web assets & sync with Android Capacitor shell
+# Build & sync to Android
 npm run build:android
 
-# 5. Compile Android Debug APK
+# Compile APK
 cd android
 .\gradlew.bat assembleDebug
 
-# Output APK path:
+# Output:
 # android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
@@ -163,37 +179,50 @@ cd android
 ## ❓ FAQ
 
 <details>
-<summary><strong>Do I need a GitHub account or API token?</strong></summary>
+<summary><strong>Do I need a GitHub account?</strong></summary>
 <br>
-No! You can search, browse categories, read full README documentation, share repos, and save bookmarks without signing in or setting up any account.
+No. Search, browse, read READMEs, share repos, and save bookmarks — all without any account.
 </details>
 
 <details>
-<summary><strong>How does native sharing work?</strong></summary>
+<summary><strong>How does the Share button work?</strong></summary>
 <br>
-Tapping <code>🔗 Share</code> opens your phone's native Android share dialog, letting you send any GitHub repository link straight to WhatsApp, Telegram, Twitter, Messages, or copy the link to clipboard.
+Tapping <code>🔗 Share</code> calls the native Android share system, so you can send any repository link to WhatsApp, Telegram, Email, or copy it — exactly how sharing works in any other Android app.
 </details>
 
 <details>
-<summary><strong>Where are my saved bookmarks kept?</strong></summary>
+<summary><strong>Are my bookmarks private?</strong></summary>
 <br>
-All saved repositories are stored locally on your device in secure <code>LocalStorage</code>. They are completely private and never uploaded to any server.
+Yes. Everything is stored in your device's <code>LocalStorage</code>. Nothing leaves your phone. Uninstalling the app will remove saved data.
+</details>
+
+<details>
+<summary><strong>What Android version is required?</strong></summary>
+<br>
+Android 6.0 (API 23) or higher is recommended for the best Capacitor WebView experience.
 </details>
 
 ---
 
-## 👨‍💻 Developer & Support
+## 👨‍💻 Developer
 
-- **Developer**: **Kizar**
-- **Support Email**: [rkkizar777@gmail.com](mailto:rkkizar777@gmail.com)
-- **License**: [MIT License](LICENSE)
+<div align="center">
+
+| | |
+|---|---|
+| **Developer** | Kizar |
+| **Support** | [rkkizar777@gmail.com](mailto:rkkizar777@gmail.com) |
+| **License** | [MIT](LICENSE) |
+| **Built with** | React 18 · Capacitor 6 · GitHub REST API v3 |
+
+</div>
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by Kizar using React 18 · Capacitor 6 · GitHub REST API v3**
+Built with ❤️ by **Kizar**
 
-[⬆ **Back to Top**](#-gitsearch-mobile)
+[⬆ Back to top](#gitsearch-mobile)
 
 </div>
