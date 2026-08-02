@@ -2,7 +2,7 @@
 
 <br />
 
-<img width="120" src="./public/logo.svg" alt="GitSearch Mobile Logo" />
+<img width="120" src="public/logo.png" alt="GitSearch Mobile Logo" />
 
 # 🔭 GitSearch Mobile
 ### *The Ultimate GitHub App Store & Explorer for Android*
