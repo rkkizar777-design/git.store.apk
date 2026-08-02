@@ -11,7 +11,7 @@
 
 <br />
 
-[![Download APK](https://img.shields.io/badge/⬇%20Download%20APK-v1.0.0-00C853?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
+[![Download APK](https://img.shields.io/badge/⬇%20Download%20APK-v1.0.0.2-00C853?style=for-the-badge&logo=android&logoColor=white)](../../releases/latest)
 
 <br />
 
