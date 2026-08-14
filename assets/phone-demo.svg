@@ -47,11 +47,11 @@
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
       </rect>
       <!-- shimmer sweep -->
-      <g opacity="0.5">
-        <path d="M140 90 L320 90 L320 96 L140 96 Z" fill="url(#acc)">
-          <animate attributeName="x" values="130;420;130" dur="3.4s" repeatCount="indefinite" xlink:href="#null"/>
-          <animate attributeName="opacity" values="0;0.25;0" dur="3.4s" repeatCount="indefinite"/>
-        </path>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0.35;0" dur="3.4s" repeatCount="indefinite"/>
+        <rect x="118" y="84" width="60" height="12" rx="6" fill="url(#acc)">
+          <animateTransform attributeName="transform" type="translate" values="0,0;304,0;0,0" dur="3.4s" repeatCount="indefinite"/>
+        </rect>
       </g>
       <rect x="398" y="82" width="16" height="16" rx="4" fill="#ec4899"/>
       <path d="M402 86h4v4h-4z M406 90h4v4h-4z M402 94h4v4h-4z" fill="#0b0e14"/>
