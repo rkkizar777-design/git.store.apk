@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#05060a"/>
+    </radialGradient>
+    <filter id="blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+      <animate attributeName="x2" values="1;0.3;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="c4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="c6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="210" fill="url(#bg2)"/>
+
+  <!-- Card (silent theme demo) -->
+  <g transform="translate(30,28)">
+    <g>
+      <circle cx="64" cy="64" r="30" fill="url(#c1)" opacity="0.35" filter="url(#blur)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.35;1" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="64" cy="64" r="52" fill="url(#c1)" fill-opacity="0.06" stroke="url(#c1)" stroke-width="4"/>
+      <circle cx="64" cy="64" r="34" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="5 7">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="64" y="140" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Midnight</text>
+    <text x="64" y="156" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Space</text>
+  </g>
+  <g transform="translate(175,28)">
+    <g>
+      <circle cx="64" cy="64" r="52" fill="url(#c2)" fill-opacity="0.06" stroke="url(#c2)" stroke-width="4"/>
+      <circle cx="64" cy="64" r="30" fill="url(#c2)" opacity="0.35" filter="url(#blur)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.35;1" dur="2.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="64" cy="64" r="34" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="5 7">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="64" y="140" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Cyberpunk</text>
+    <text x="64" y="156" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Neon</text>
+  </g>
+  <g transform="translate(320,28)">
+    <g>
+      <circle cx="64" cy="64" r="52" fill="url(#c3)" fill-opacity="0.06" stroke="url(#c3)" stroke-width="4"/>
+      <circle cx="64" cy="64" r="30" fill="url(#c3)" opacity="0.35" filter="url(#blur)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M34 64a30 30 0 0 1 60 0" fill="none" stroke="#a5f3fc" stroke-width="2.5" opacity="0.8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="11s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="64" y="140" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Deep</text>
+    <text x="64" y="156" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Ocean</text>
+  </g>
+  <g transform="translate(465,28)">
+    <g>
+      <circle cx="64" cy="64" r="52" fill="url(#c4)" fill-opacity="0.06" stroke="url(#c4)" stroke-width="4"/>
+      <circle cx="64" cy="64" r="30" fill="url(#c4)" opacity="0.35" filter="url(#blur)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.35;1" dur="2.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="64" cy="64" r="10" fill="none" stroke="#fecdd3" stroke-width="2">
+        <animateTransform attributeName="transform" type="scale" values="0.6;2.4" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.9;0" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="64" y="140" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Midnight</text>
+    <text x="64" y="156" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Rose</text>
+  </g>
+  <g transform="translate(610,28)">
+    <g>
+      <circle cx="64" cy="64" r="52" fill="#000" stroke="#2a2f3a" stroke-width="4"/>
+      <circle cx="64" cy="64" r="30" fill="#0b0e14" opacity="0.9">
+        <animate attributeName="fill" values="#0b0e14;#20242e;#0b0e14" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="64" cy="64" r="34" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="4 8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="64" y="140" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">AMOLED</text>
+    <text x="64" y="156" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Black</text>
+  </g>
+  <g transform="translate(755,28)">
+    <g>
+      <circle cx="64" cy="64" r="52" fill="url(#c6)" fill-opacity="0.06" stroke="url(#c6)" stroke-width="4"/>
+      <circle cx="64" cy="64" r="30" fill="url(#c6)" opacity="0.35" filter="url(#blur)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.35;1" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M64 34a30 30 0 1 0 0 60a30 30 0 0 0 0-60Z M64 46a18 18 0 1 1-18 18" fill="none" stroke="#bbf7d0" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="64" y="140" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Emerald</text>
+    <text x="64" y="156" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">Forest</text>
+  </g>
+
+  <text x="450" y="196" font-size="12" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="2">LIVE · ANIMATED IN SETTINGS</text>
+</svg>
