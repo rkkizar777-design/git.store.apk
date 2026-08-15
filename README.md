@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Capacitor_6-119EFF?style=flat-square&logo=capacitor&logoColor=white&labelColor=11141a" alt="Capacitor"/>
   <img src="https://img.shields.io/badge/Privacy-100%25_Client--Side-22d3ee?style=flat-square&labelColor=11141a" alt="Privacy"/>
   <img src="https://img.shields.io/badge/No_Account_Needed-Yes-fbbf24?style=flat-square&labelColor=11141a" alt="No account"/>
-  <img src="https://img.shields.io/badge/License-MIT-b794f4?style=flat-square&labelColor=11141a" alt="MIT"/>
+  <img src="https://img.shields.io/badge/License-Proprietary-b794f4?style=flat-square&labelColor=11141a" alt="Proprietary"/>
 </p>
 
 <br/>
@@ -41,8 +41,9 @@
 **GitSearch Mobile** is a pocket GitHub companion for Android that turns the raw, slow, login-first web into a beautiful, instant, and completely private discovery experience.
 
 - 🔍 **Search all of GitHub instantly** — no account, no login, no waiting
-- 🔥 **A discovery home** — For You feed, Trending, and 10 curated categories, ready before you even type
+- 🔥 **A discovery home** — For You feed, Pick Your Vibe, Project Threads with comments, and curated categories, ready before you even type
 - 📖 **Read any README** in a gorgeous reader mode — right inside the app
+- 📥 **In-app updates** — downloads run inside the app with a live progress bar, then install on their own
 - 🕶️ **Six animated dark themes** you can switch live, from AMOLED black to Cyberpunk Neon
 - 🔐 **Lock it down** with a 4-digit PIN or your fingerprint/face — like a vault for your repos
 - 💬 **Peer-to-peer GitChat** — share repos with people around you, no server in between
@@ -114,7 +115,10 @@ Every release is **pushed straight to this repository** and the app detects it, 
 ## 🚀 Features
 
 ### 🔭 Discovery First
-- **For You** — a smart feed ranked from your own activity
+- **For You** — a smart feed mixed from GitHub trending, your top searches, and surprise picks
+- **Pick Your Vibe** — a big swipeable card (👍 / 👎) that personalizes the feed in seconds
+- **Project Threads** — bigger repo cards with the README overview plus **live discussions & comments** right on the home screen; tap a comment to read the full conversation
+- **Continue Reading** — your recently opened repos, ready to jump back into
 - **🔥 Trending** — the week's hottest repos on GitHub, one tap away
 - **10 quick categories** — AI/ML, Web Dev, Rust, APIs, Python, Mobile, Games, Security, DevOps, and more
 
@@ -147,6 +151,8 @@ Every release is **pushed straight to this repository** and the app detects it, 
 ### 🔔 Self-Updating
 - Flashing alert when a new version is found
 - Rich notification with the version + first change; tap to install
+- **In-app download** — the APK downloads right inside the app with a live progress bar (percent + MB), then the installer opens automatically — no jumping to GitHub
+- If Android blocks the install, the update screen walks you to "Allow installs for GitStore" and brings you back to install
 - Cross-verified against this release page — a stale cache can never hide a new release
 
 <br/>
@@ -224,7 +230,7 @@ Yes. The APK contains no analytics SDK. All data lives in your device storage. T
 <details>
 <summary><strong>How do updates work without the Play Store?</strong></summary>
 <br/>
-The app reads this repository's release feed. When a new tag appears it notifies you (rich notification), and one tap downloads and installs the new APK. It cross-checks with the release page so it never misses an update.
+The app reads this repository's release feed. When a new tag appears it notifies you (rich notification). Tap **Download & install** and the APK downloads right inside the app with a live progress bar, then installs on its own. It cross-checks with the release page so it never misses an update.
 </details>
 
 <details>
@@ -236,7 +242,7 @@ A GitHub-focused app doesn't need a store queue between you and the next improve
 <details>
 <summary><strong>How do I update once installed?</strong></summary>
 <br/>
-Tap the pulsing update indicator in the app, or go to the **Updates** screen and hit "Check for updates". GitSearch will confirm the latest version and install it in one tap.
+Tap the pulsing update indicator in the app, or go to the **Updates** screen and hit "Check for updates". GitSearch will confirm the latest version, download it **inside the app** with a progress bar, and install it in one tap.
 </details>
 
 <br/>
@@ -249,8 +255,9 @@ Tap the pulsing update indicator in the app, or go to the **Updates** screen and
 |---|---|
 | **Maker** | **Kizar** |
 | **Support** | [rkkizar777@gmail.com](mailto:rkkizar777@gmail.com) |
+| **Telegram** | [@gitsearch1](https://t.me/gitsearch1) |
 | **Stack** | React 18 · Capacitor 6 · GitHub REST API v3 · Android |
-| **License** | [MIT](LICENSE) |
+| **License** | [GitStore Proprietary License](LICENSE) |
 
 </div>
 
@@ -264,3 +271,4 @@ Tap the pulsing update indicator in the app, or go to the **Updates** screen and
 <p align="center">
   <img src="assets/hero.svg" width="120" alt="GitSearch mark" />
 </p>
+
